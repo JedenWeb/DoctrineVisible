@@ -1,0 +1,23 @@
+{
+	"name": "jedenweb/doctrine-visible",
+	"type": "library",
+	"description": "Visibility trait for Doctrine entities",
+	"keywords": ["nette", "mail"],
+	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"authors": [
+		{
+			"name": "Pavel Jurásek"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/JedenWeb/DoctrineVisible/issues"
+	},
+	"require": {
+        "doctrine/orm": "^2.4"
+	},
+	"autoload": {
+		"psr-0": {
+			"JedenWeb\\Doctrine\\": "src/"
+		}
+	}
+}
